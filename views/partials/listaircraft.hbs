@@ -1,0 +1,70 @@
+{{#unless aircraftList.aircraft}}
+  <h3 class="ui center aligned message">Looks very empty in here...*cricket sounds*...start adding in some aircraft!!</h3>
+{{/unless}}
+
+{{#if aircraftList.aircraft}}
+
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th class="four wide">Aircraft</th>
+      <th class="four wide">Brand</th>
+      <th class="three wide">Type</th>
+      <th class="three wide">Price$</th>
+      <th class="one wide"> </th>
+      <th class="one wide"> </th>
+    </tr>
+  </thead>
+<tbody>
+    {{#each aircraftList.aircraft}}
+    <form class = "ui stacked segment form" action="/aircraft/{{../aircraftList.id}}/updateAircraft/{{id}}" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
+         <input type="text" name="title" autofocus required title = "Please include a valid Title" placeholder="Title" value = "{{capitalise title}}">
+        </span>
+      </td>
+    <td class="field">
+      <span class="ui input">
+        <select name="brand" id="brand" style="padding:.6em 2.5em; border:solid lightgray 1px;border-radius:5px;">
+          <option value="{{brand}}" selected="selected">{{brand}}</option>
+          {{{populate brand}}}       
+        </select>       
+      </span>
+    </td>
+    <td class="field">
+    <span class="ui input">
+      <select name="type" id="type" style="padding:.6em 2.5em; border:solid lightgray 1px;border-radius:5px;">
+        <option value="{{type}}" selected="selected">{{type}}</option>
+        {{{populate type}}}       
+      </select>       
+    </span>
+    </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="price$" required title = "Please enter a valid price$" placeholder="Price$" value = "{{price$}}">
+        </span>
+      </td>
+      <td class="center aligned">
+        <button class="ui submit icon button"><i class="ui pencil alternate icon"></i></button>
+      </td>
+      <td class="center aligned">
+        <a href="/aircraft/{{../aircraftList.id}}/deleteAircraft/{{id}}" class="ui icon button delaircraft">
+          <i class="ui trash icon"></i>
+        </a>
+      </td>
+    </tr>
+    </form> 
+    {{/each}}
+  </tbody>
+</table>
+
+<p>
+  <span id="rating"> </span>
+</p>
+
+<button class="ui blue button" id="rateit">
+  Rate it! <i class="star icon"></i>
+</button>
+
+{{/if}}

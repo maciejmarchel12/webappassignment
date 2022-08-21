@@ -1,0 +1,88 @@
+{{>  menu}}
+
+<section class="ui column segment" >
+      <div class="ui column">
+        <img class="ui container center" src="https://cdn.glitch.global/5fd28e2f-3ae6-47b5-b8b8-957098edd69e/welcomeimg.png?v=1647707271163">
+          <h2 class="ui header">Welcome to the Skyline Aviators App, {{fullname}}</h2>
+            <p>
+              This web application will allow users to see and list their aircraft for sale. Users will be able to set the price and remove their aircraft anytime off of the website whenever a buyer is
+              found or has bought their aircraft.
+            </p>
+            <br>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non posuere dolor. Sed non varius enim. Mauris in tortor at orci feugiat sodales. Nunc luctus tempor euismod. Aliquam posuere, ipsum eget varius tempor, turpis justo laoreet nunc, sed consectetur justo orci nec neque. Quisque viverra quam lobortis, dignissim magna a, molestie erat. Ut tempor varius nulla, venenatis malesuada tellus pulvinar interdum. In hac habitasse platea dictumst. Curabitur vestibulum euismod rutrum. Curabitur imperdiet volutpat ante a luctus. Pellentesque fringilla purus sed dui auctor dictum. Vivamus sem turpis, pulvinar a tellus eu, condimentum fermentum est.
+
+            Phasellus fringilla urna lectus, hendrerit sollicitudin arcu condimentum id. Aenean vehicula volutpat nunc vel efficitur. Maecenas condimentum fringilla ante, quis rhoncus neque tempus non. Mauris id lorem eu ligula tincidunt vestibulum. Duis fermentum nulla id eros faucibus venenatis sit amet eu diam. Vestibulum eget diam sit amet tortor condimentum volutpat. In vel accumsan ligula. Sed fermentum eget dui ac feugiat. Praesent facilisis urna tortor, sit amet auctor augue ullamcorper sit amet. Cras et est tristique, ullamcorper felis at, tincidunt lectus. Proin scelerisque semper euismod. Praesent ut nulla vel purus commodo sollicitudin ac quis purus.
+            Praesent eget justo odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam justo dui, vulputate a sem ac, sagittis rhoncus eros. Fusce turpis arcu, faucibus eu mattis in, imperdiet sed arcu.
+
+            Ut vitae pulvinar nulla. Phasellus vitae elit pulvinar, dapibus libero non, feugiat justo. Vivamus ut risus sed augue finibus mattis sed bibendum lacus. Duis scelerisque, est a interdum placerat, nisi ex aliquam mi, sit amet convallis lectus est et orci. Ut non risus hendrerit, bibendum ante eget, blandit metus. Nam varius felis id nisl finibus pharetra. Morbi malesuada ac urna et accumsan. Curabitur felis purus, accumsan elementum eleifend ac, maximus ac lacus. Ut quis mi sem. Maecenas interdum ante non augue sagittis tempus. Vestibulum nisl velit, faucibus et vehicula laoreet, euismod eu purus. Donec semper mauris justo, ac aliquam justo facilisis in. Sed imperdiet, turpis eu ullamcorper interdum, ante tellus vulputate turpis, at imperdiet nisi nulla pretium risus. Integer porta venenatis nulla, eu posuere nunc viverra iaculis.
+        </p>
+        <h2>
+          Assignment done by:
+        </h2>
+        <ul>
+          <li>Maciej Marchel</li>
+          <li>20093921</li>
+          <li>SSD Year 2</li>
+        </ul>
+            <div class="buttons">
+              <button class="ui purple button">
+                Read more <i class="arrow circle right icon"></i>
+              </button>
+            </div>
+          <div id="readmore" class="ui message">
+            <p>
+              Over the coming months, more functionality will be added to the web app to allow users to do other things while selling, viewing and buying aircrafts through skyline aviators 
+              marketplace as a 3rd party, we plan on adding support to view helicopters separately we appreciate the users patience while we work on continuing to expand our marketplace web app.
+              Right now the website is in its bare bones framework and adds minimal functionality but has enough to work, we seek to continue to expand it for our userbase and customers who are also just
+              as passionate about aviation as us! We at Skyline Aviators wish everyone a fun time who decide to soar to the skys by doing business through us to acquire an aircraft of their own!
+              For any additional feedback please contact us from our about page, you can do so by either sending us an email or calling directly towards, we will be happy to provide any answers regarding
+              you enquiry.
+            </p>  
+          </div>
+        </div>  <div class="ui column">
+  
+  <h3 class="ui center aligned header">The Skyline Aviators App now contains:</h3>
+    <div class="ui two statistics">
+      <div class="ui huge statistic">
+        <div class="value">
+            {{totalAircraftLists}}
+        </div>
+      <div class="label">
+            Aircraft Lists
+        </div>
+    </div>
+    <div class="ui huge statistic">
+        <div class="value">
+            {{totalAircraft}}
+        </div>
+        <div class="label">
+            Aircraft
+        </div>
+    </div>
+      <div class="ui huge statistic">
+        <div class="value">
+            {{average}}
+        </div>
+        <div class="label">
+            Average of Aircraft across all Lists
+        </div>
+    </div>
+</div>
+  
+<div class="ui divider"></div>
+  <h3 class="ui center aligned header">Most and least statistic</h3>
+      <div class="ui one statistics">
+        <div class="ui huge statistic">
+          <div class="label">
+             The list with the most aircraft is {{largestAircraftTitle}}: it has {{currentLargest}} aircraft
+          </div>
+        </div>
+      <div class="ui huge statistic">
+          <div class="label">
+             The list with the least aircraft is {{smallestAircraftTitle}}: it has {{currentSmallest}} aircraft
+          </div>
+        </div>
+      </div>
+  </div>
+</section>

@@ -1,0 +1,103 @@
+{
+  "aircraftCollection": [
+    {
+      "id": "13b53868-2fc3-4f51-b799-4bd2448afe01",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "TestList",
+      "Image": "https://res.cloudinary.com/skylineaviators/image/upload/v1651422114/Cessna-Plane-Types-and-Models_fgsgg4.png",
+      "aircraft": [
+        {
+          "id": "3a09e0fa-79bd-4f2a-a56f-828ea2d9e78c",
+          "title": "Test air",
+          "brand": "Test",
+          "type": "Test",
+          "price$": "12"
+        },
+        {
+          "id": "8a65b603-2bd3-410e-a76a-db4fa0ba047b",
+          "title": "test air 2",
+          "brand": "test2",
+          "type": "test2",
+          "price$": "14"
+        },
+        {
+          "id": "3752bb94-30bd-424a-85db-7d25834c2e3b",
+          "title": "test air 3",
+          "brand": "test3",
+          "type": "test3",
+          "price$": "12"
+        }
+      ]
+    },
+    {
+      "id": "8360e11f-7538-4581-bca8-a194cf0cd243",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Cessna 171",
+      "Image": "http://res.cloudinary.com/skylineaviators/image/upload/v1651426742/essq2audmqt5ikuqpw4p.jpg",
+      "aircraft": [
+        {
+          "id": "067e127a-4639-4bf7-a0b8-e994bc414758",
+          "title": "Cessna 171",
+          "brand": "Textron Aviation",
+          "type": "TurboProp Engine",
+          "price$": "10000.00"
+        }
+      ]
+    },
+    {
+      "id": "1bd6a906-c64f-4bf3-a3c2-d108f0683fdc",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Private Jet",
+      "Image": "http://res.cloudinary.com/skylineaviators/image/upload/v1651429509/ix9bmiue5re0g0rt01tv.jpg",
+      "aircraft": []
+    },
+    {
+      "id": "b5016dd2-c303-400d-bb91-55b69b5adb34",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Private jets 2",
+      "Image": "http://res.cloudinary.com/skylineaviators/image/upload/v1651429762/bfo0rgakwjp1m8bwxxyb.jpg",
+      "date": "2022-05-01T18:29:22.548Z",
+      "aircraft": [
+        {
+          "id": "d4b8e382-cd9b-4f4e-afb0-ab01e450366d",
+          "title": "CESSNA",
+          "brand": "Textron Aviation",
+          "type": "Turboprop",
+          "price$": "9000.00"
+        }
+      ]
+    },
+    {
+      "id": "dde8c043-c6a2-47c3-91e7-318aaa6c3300",
+      "userid": "c59594ca-8942-4a05-bbaa-c2307bbdf51e",
+      "title": "Test",
+      "Image": "http://res.cloudinary.com/skylineaviators/image/upload/v1652094145/uqnjnv2wmetcnemgtoyv.jpg",
+      "date": "2022-05-09T11:02:24.916Z",
+      "aircraft": [
+        {
+          "id": "d72f72d5-d724-4e80-8958-e1eb85dbec39",
+          "title": "F  ",
+          "brand": "Boeing",
+          "type": "Comac",
+          "price$": "25000"
+        }
+      ]
+    },
+    {
+      "id": "8d9083df-9970-40b1-9f50-80fd01119998",
+      "userid": "c59594ca-8942-4a05-bbaa-c2307bbdf51e",
+      "title": "tt",
+      "Image": "http://res.cloudinary.com/skylineaviators/image/upload/v1652263024/suhlqc6qswj6ve3mtt37.jpg",
+      "date": "2022-05-11T09:57:04.416Z",
+      "aircraft": [
+        {
+          "id": "3f0d6cc4-a739-4fc9-bf31-509580ecdf63",
+          "title": "G ",
+          "brand": "Boeing",
+          "type": "Turbojet",
+          "price$": "34000"
+        }
+      ]
+    }
+  ]
+}

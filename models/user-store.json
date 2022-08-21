@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "firstName": "test",
+      "lastName": "user",
+      "email": "test@gmail.com",
+      "password": "pass",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "test2",
+      "lastName": "user2",
+      "email": "test2@gmail.com",
+      "password": "pass",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Maciej",
+      "lastName": "Marchel",
+      "email": "mmarchel@gmail.com",
+      "password": "Password1",
+      "id": "84970996-04bb-44ae-a3ab-3ac59dabc819"
+    },
+    {
+      "firstName": "Joe",
+      "lastName": "Bloggs",
+      "email": "jbloggs@setu.ie",
+      "password": "Trustno1",
+      "id": "c59594ca-8942-4a05-bbaa-c2307bbdf51e"
+    }
+  ]
+}

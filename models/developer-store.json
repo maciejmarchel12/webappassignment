@@ -1,0 +1,49 @@
+{"developers":
+  [
+    {
+      "name":"Elliot",
+      "fullname":"Elliot Fu",
+      "image":"https://cdn.glitch.global/5fd28e2f-3ae6-47b5-b8b8-957098edd69e/business3.jpg?v=1647709442925",
+      "joined":2010,
+      "job":"Owner",
+      "city":"Orlando, FL",
+      "mates":45
+    },
+    {
+      "name":"Jane",
+      "fullname":"Jane Doe",
+      "image":"https://cdn.glitch.global/5fd28e2f-3ae6-47b5-b8b8-957098edd69e/business1.jpg?v=1647709443429",
+      "joined":2012,
+      "job":"Accounting Lead",
+      "city":"Tampa, FL",
+      "mates":35
+    },
+    {
+      "name":"Helen",
+      "fullname":"Helen Hess",
+      "image":"https://cdn.glitch.global/5fd28e2f-3ae6-47b5-b8b8-957098edd69e/business4.jpg?v=1647709443210",
+      "joined":2018,
+      "job":"HR Manager",
+      "city":"Tampa, FL",
+      "mates":22
+    },
+    {
+      "name":"John",
+      "fullname":"John Smith",
+      "image":"https://cdn.glitch.global/5fd28e2f-3ae6-47b5-b8b8-957098edd69e/business5.jpg?v=1647709443110",
+      "joined":2019,
+      "job":"Lead Website Developer",
+      "city":"Miami, FL",
+      "mates":26
+    },
+    {
+      "name":"James",
+      "fullname":"James Rivers",
+      "image":"https://cdn.glitch.global/5fd28e2f-3ae6-47b5-b8b8-957098edd69e/business2.jpg?v=1647709443124",
+      "joined":2019,
+      "job":"Sales Manager",
+      "city":"Orlando, FL",
+      "mates":31
+    }
+  ]
+}
